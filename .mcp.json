@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "laravel-boost": {
+      "command": "make",
+      "args": ["mcp/boost"]
+    }
+  }
+}
