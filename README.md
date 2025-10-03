@@ -15,6 +15,10 @@ This project provides real-time context of my current viewing experience through
 
 By leveraging OpenSubtitles for real-time subtitle context, the LLM can understand exactly where I am in a film and provide relevant, spoiler-aware responses.
 
+<img src="./README/what-have-i-missed.png" width="300" /> <img src="./README/deep-dive.png" width="300" />
+
+<img src="./README/lookup.png" width="300" /> <img src="./README/prompt.png" width="300" />
+
 ## Architecture
 
 This server is built with **Laravel 12** and **Laravel MCP**, exposing functionality through both:
