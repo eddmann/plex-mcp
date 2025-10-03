@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    platform: linux/amd64
+    ports:
+      - 8001:8000
+    volumes:
+      - ../app:/var/task
+    networks:
+      - app
+    env_file:
+      - dev.env
+
+networks:
+  app:
